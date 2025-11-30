@@ -1,3 +1,3 @@
 # Selenium-3-Site-Scraper-Demo
-Another tool that was made to test Bot Protection, this time using Selenium as a headless browser to allow JavaScript validation.
+Another tool that was made to test Bot Protection, this time using Selenium as a Headless Browser to allow JavaScript validation.
 This tool successfully scraped the required information and allowed JavaScript validation, but moves significantly slower due to using Selenium as a Headless Browser with JavaScript enabled, completing only approximately 8 requests per second, whereas the other 3-Site-Scraper-Demo tool was able to parse ~335/second on average. The bottleneck of this tool is the RAM requirement to run each worker. On a more RAM-heavy environment, many more threads could run in tandem, which would allow more requests. 8/second per 10 hosts with current config on a machine with 32GB of 3200MT RAM and an 8-core, 4.2GHz CPU.
